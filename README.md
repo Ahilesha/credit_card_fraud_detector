@@ -27,15 +27,6 @@ The system identifies fraud based on:
 4. Compile and run `FraudDetector.java`.
 5. Click on the **Load Transactions** button to view and analyze transaction data.
 
-**File Structure**
-
-|-- src/
-|   |-- FraudDetector.java    # Main Java program
-|   |-- Transaction.java      # Transaction model class
-|-- transactions.csv          # Sample transaction data
-|-- fraudulent_transactions.csv # Output file for flagged transactions
-|-- README.md                 # Project documentation
-
 **How to Use**
 1. **Select CSV File:** Click the "Select CSV File" button to choose a transaction file.
 2. **Load Transactions:** Click the "Load Transactions" button to display transaction records.
@@ -44,10 +35,14 @@ The system identifies fraud based on:
 
 **Sample CSV Format**
 
--Card Number,Location,Amount ($),Timestamp
--1234567890123456,New York,150,1710154800000
--1234567890123456,New York,800,1710158400000
--5555444433332222,Chicago,7000,1710241200000 
+**Card Number,Location,Amount ($),Timestamp**
+
+1234567890123456,New York,150,1710154800000
+
+1234567890123456,New York,800,1710158400000
+
+5555444433332222,Chicago,7000,1710241200000 
+
 *Timestamp is in milliseconds since epoch.*
 
 
