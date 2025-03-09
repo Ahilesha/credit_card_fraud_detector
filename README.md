@@ -1,6 +1,7 @@
 **Credit Card Fraud Detection System**
 
 **Overview**
+
 The Credit Card Fraud Detection System is a Java-based application that helps identify fraudulent transactions based on predefined rules and user behavior patterns. The program loads transaction data from a CSV file, displays it in a table using Java Swing, and highlights suspicious transactions in red.
 
 **Features**
@@ -43,10 +44,10 @@ The system identifies fraud based on:
 
 **Sample CSV Format**
 
-Card Number,Location,Amount ($),Timestamp
-1234567890123456,New York,150,1710154800000
-1234567890123456,New York,800,1710158400000
-5555444433332222,Chicago,7000,1710241200000 
+-Card Number,Location,Amount ($),Timestamp
+-1234567890123456,New York,150,1710154800000
+-1234567890123456,New York,800,1710158400000
+-5555444433332222,Chicago,7000,1710241200000 
 *Timestamp is in milliseconds since epoch.*
 
 
